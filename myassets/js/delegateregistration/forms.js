@@ -16,7 +16,7 @@ $(document).ready(function(){
                 if(data == "y"){
                     l.stop;
                     $("html, body").animate({ scrollTop: 0 }, "slow");
-                    $("#step2").addClass("active");   
+                    $("#step2").addClass("active");
                 }
                 else{
                     l.stop;
@@ -24,6 +24,6 @@ $(document).ready(function(){
             }
         });
 
-                    
+
         });
 });
